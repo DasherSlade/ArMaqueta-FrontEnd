@@ -1,0 +1,9 @@
+/* ETIQUETA DE HTML VA SOLO EL NOMBRE */
+/* LAS CLASES VA CON "." ADELANTE */
+/* ID VA CON "#" ADELANTE */
+
+body{
+    background-color:rgb(101, 64, 187);
+    color: aliceblue;
+    
+}
