@@ -5,5 +5,10 @@
 body{
     background-color:rgb(101, 64, 187);
     color: aliceblue;
-    
+
+}
+
+#mi{
+    text-align: center;
+    margin: auto;
 }
