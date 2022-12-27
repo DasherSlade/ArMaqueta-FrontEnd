@@ -2,16 +2,24 @@
 /* LAS CLASES VA CON "." ADELANTE */
 /* ID VA CON "#" ADELANTE */
 
+/* NAVBAR STYLES */
 .bgcolor{
-    background-color: rgb(13, 112, 116);
+    background-color: rgb(31, 95, 97);
 }
 
+.list-group{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color:transparent;
+}
+
+/* FONDO */
 body{
     background-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 
 }
 
+/* SOBRE MI */
 #mi{
     text-align: center;
     margin: auto;
