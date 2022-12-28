@@ -12,6 +12,19 @@
     --bs-list-group-border-color:transparent;
 }
 
+.fa-brands.fa-instagram.fa-2x:hover{
+    color: rgb(166, 41, 170) !important;
+}
+
+.fa-brands.fa-linkedin-in.fa-2x:hover{
+    color: rgb(8, 5, 139) !important;
+}
+
+.fa-brands.fa-github.fa-2x:hover{
+    color: rgb(219, 64, 3) !important;
+}
+
+
 /* FONDO */
 body{
     background-color:rgb(255, 255, 255);
