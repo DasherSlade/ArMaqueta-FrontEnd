@@ -13,56 +13,35 @@
 </head>
 <body>
 
-  <!-- seccion de navbar usuario -->
+  <!-- Seccion de navbar usuario -->
 <nav class="navbar navbar-expand-lg bgcolor">
-        <div class="container-fluid">
+  <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="assets/img/APLogo-20-20.png" alt="Logo-Argentina-Programa" width="140">
           </a>
 
           <!-- Iconos redes y login -->
           <ul class="list-group list-group-horizontal">
-           <li class="list-group-item"><i class="fa-brands fa-instagram fa-2x text-white"></i> </li>
-           <li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-2x text-white"></i> </li>
-           <li class="list-group-item"><i class="fa-brands fa-github fa-2x text-white"></i> </li>
+           <li class="list-group-item"><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-2x text-white"></i></a></li>
+           <li class="list-group-item"><a href="https://www.linkedin.com/in/nahuel-menares-4002/" target="_blank"><i class="fa-brands fa-linkedin-in fa-2x text-white"></i></a></li>
+           <li class="list-group-item"><a href="https://github.com/DasherSlade" target="_blank"><i class="fa-brands fa-github fa-2x text-white"></i></a></li>
            <!-- buttom trigger modal -->
-           <li class="list-group-item"><i data-bs-toggle="modal" data-bs-target="#userModal" class="fa-solid fa-right-to-bracket fa-2x"></i> </li>
+           <li class="list-group-item"><i data-bs-toggle="modal" data-bs-target="#userModal" class="fa-solid fa-right-to-bracket fa-2x text-white"></i></li>
         </ul>
       </div>
     </nav>
 
-<!-- Modal -->
-<div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar Sesión</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más..</div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar ventana</button>
-      </div>
-    </div>
-  </div>
-</div>
+    <!-- Sección BANNER -->
+<section class="banner">
+  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, fugiat voluptas ut voluptatibus omnis velit autem earum mollitia, aperiam laboriosam reiciendis nostrum, accusantium odit soluta eius. Libero doloremque quo minus?</h3>
+
+
+
+
+</section>
+
+
+
 
 <!-- Sección sobre mi(redes sociales) -->
 <section id="redes"> 
@@ -78,7 +57,7 @@
 <section id="mi"> 
     <h2>Sobre mi</h2>
     <div>
-        <img src="assets/img/messi.jpg" alt="foto-de-messi">
+        <img src="" alt="foto-de-mi">
     </div>
 
     <div>
@@ -121,6 +100,40 @@
     
     </section>
     <!-- FIN de Sección sobre datos personales -->
+
+
+    <!-- MODAL -->
+<div class="modal fade" id="userModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar Sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre de usuario</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos su información con nadie.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Recuérdame</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar ventana</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
