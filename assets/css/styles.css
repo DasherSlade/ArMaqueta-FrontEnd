@@ -30,30 +30,55 @@
 
 /* FONDO y BANNER */
 body{
-    background-color:rgb(255, 255, 255);
+    background-color: beige;
     color: rgb(0, 0, 0);
 }
 
-section.banner{ 
-    background-image: linear-gradient(rgb(0, 0, 0, 0.2), rgb(0, 0, 0, 0.9)), url(../img/banner.png);
-    width: 1950px;
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: 100%;  
+.estilo-font{
+    font-style: italic;
+    text-align: center;
+}
+
+
+.banner{ 
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;     
+}
+
+.texto-banner{
+    text-align: center;
+    padding-top: 10%;
 }
 
 /* SOBRE MI */
 
 .foto-perfil{
-    margin-top: 10%;
+    margin-top: -20%;
     margin-left: -80%;
 }
 
-.sobremi{
+h3.sobre-mi{
+    margin-left: 25%;
+    margin-top: -20%;
+    text-align: start;
+}
+
+h2.sobre-mi{
+    margin-left: -80%;
     margin-top: 10%;
 }
 
 #mi{
     text-align: center;
     margin: auto;
+}
+
+/* Experiencia laboral */
+
+.insert-imagen{
+    width: 200px;
+    height: 200px;
+    margin-left: -80%;
+    margin-top: 20%;
 }
