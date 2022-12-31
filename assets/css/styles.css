@@ -3,34 +3,36 @@
 /* ID VA CON "#" ADELANTE */
 
 /* NAVBAR STYLES */
-.bgcolor{
-    background-color: rgb(0, 0, 0);
-}
-
-.list-group{
-    --bs-list-group-bg:transparent;
-    --bs-list-group-border-color:transparent;
-}
-
-.fa-brands.fa-instagram.fa-2x:hover{
-    color: rgb(189, 51, 143) !important;
-}
-
-.fa-brands.fa-linkedin-in.fa-2x:hover{
-    color: rgb(127, 187, 255) !important;
-}
-
-.fa-brands.fa-github.fa-2x:hover{
-    color: rgb(209, 117, 81) !important;
-}
 
 .container-fluid ul li:hover{
     transform: translateY(-4px) scale(1.10);
 }
 
-/* FONDO y BANNER */
+.logo-de-ap{
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    width: 40px;
+    height: 35px;
+    margin-top: -3%;
+}
+
+.bi.bi-instagram.fa-2x:hover{
+    color: rgb(189, 51, 143) !important;
+}
+
+.bi.bi-linkedin.fa-2x:hover{
+    color: rgb(127, 187, 255) !important;
+}
+
+.bi.bi-github.fa-2x:hover{
+    color: rgb(209, 117, 81) !important;
+}
+
+/* FONDO y LETRA */
 body{
-    background-color: beige;
+    background: #C9D6FF;
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
     color: rgb(0, 0, 0);
 }
 
@@ -39,19 +41,37 @@ body{
     text-align: center;
 }
 
-
+/* BANNER */
 .banner{ 
     background-size: cover;
     min-height: 60vh;
-    position: relative;     
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0,.6);     
+}
+
+.text-banner{
+    font-size: 2rem;
+    text-align: center;
 }
 
 .texto-banner{
-    text-align: center;
-    padding-top: 10%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.3);
 }
 
-/* SOBRE MI */
+ @media (max-width: 768px) { 
+    .banner {
+        min-height: 30vh;
+    }
+    .text-banner {
+        font-size: calc(1.200rem + 3.0vw);
+    }
+ }
+
+ /* SOBRE MI */
 
 .foto-perfil{
     margin-top: -20%;
