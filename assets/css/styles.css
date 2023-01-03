@@ -1,6 +1,7 @@
 /* ETIQUETA DE HTML VA SOLO EL NOMBRE */
 /* LAS CLASES VA CON "." ADELANTE */
-/* ID VA CON "#" ADELANTE */
+/* ID VA CON "#" ADELANTE
+#111135 ##a81150*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 * {
@@ -43,10 +44,10 @@ html {
 
 /* FONDO y LETRA */
 body{
-    background: #C9D6FF;
-    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF); 
-    background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
-    color: rgb(0, 0, 0);
+background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* BANNER */
@@ -157,10 +158,10 @@ body{
 
 .titular{
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     font-size: 24px;
     text-transform: uppercase;
-    color: #111135;
+    color: #000000;  
     text-decoration: underline;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
@@ -189,22 +190,65 @@ body{
     text-align: center;
 }
 
-/* Mis habilidades */
+/* Mi educacion */
 
 .size-card{
-width: 20rem;
-margin-top: 15%;
-margin-left: 15%;
+    width: 25rem;
+    margin-top: 15%;
+    margin-left: 5%;    
+    margin-bottom: 10%;
 }
 
 .size-card:hover{
     opacity: 0.8;
 }
 
-.estilo-texto-carta{
-    
+.size-card h4{
+    font-size: 20px;
 }
 
+.size-card p{
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+/* Mis habilidades */
+
+#habilidades{
+background: linear-gradient(#d64a6f, rgba(33,16,16, .8)), url('../img/habilidad-foto.png');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+padding: 100px 0;
+text-align: center;
+}
+
+.titular-habilidad{
+    margin-bottom: 8%;
+    text-decoration: underline;
+    text-decoration-color: #dddbdb;
+    text-decoration-thickness: 4px;
+}
+
+.estilo-barra{
+    background-color: #919191;
+    margin-bottom: 3%;
+    height: 25px;
+}
+
+.estilo-progreso{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 18px;
+}
+
+/* Mis proyectos */
+
+#proyectos .card{
+    margin-bottom: 5%;
+}
 
 /* @MEDIA */
 
