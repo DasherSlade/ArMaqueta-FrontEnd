@@ -158,7 +158,7 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
 
 .titular{
     margin-top: 10%;
-    margin-bottom: 7%;
+    margin-bottom: 12%;
     font-size: 24px;
     text-transform: uppercase;
     color: #000000;  
@@ -169,7 +169,7 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
 
 .card-estilo{
     max-width: 26rem;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     margin-top: 5%;
 }
 
@@ -188,26 +188,35 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
     color: #474747;
     margin-bottom: 12px;
     text-align: center;
+    margin-bottom: 25%;
 }
 
 /* Mi educacion */
 
-.size-card{
-    width: 25rem;
-    margin-top: 15%;
-    margin-left: 5%;    
-    margin-bottom: 10%;
+#educacion .titular{
+    padding-bottom: 7%;
 }
 
-.size-card:hover{
+#educacion .card{
+    margin-bottom: 5%;
+    max-width: 450px;
+}
+
+#educacion .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+#educacion .card:hover{
     opacity: 0.8;
 }
 
-.size-card h4{
+#educacion .card-body h4{
     font-size: 20px;
 }
 
-.size-card p{
+#educacion .card-body p{
     font-size: 12px;
     line-height: 20px;
 }
@@ -247,8 +256,41 @@ text-align: center;
 /* Mis proyectos */
 
 #proyectos .card{
+    max-width: 675px;
+    margin: 0 10px;
     margin-bottom: 5%;
+    filter: grayscale(1);
+    object-fit: cover;
+    transition: .5s;
 }
 
-/* @MEDIA */
+#proyectos .row{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
 
+#proyectos .card img{
+    max-height: 500px;
+}
+
+#proyectos .card:hover{
+    filter: grayscale(0);
+}
+
+#proyectos .card-body{
+    position: absolute;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    color: #d64a6f;
+    width: 100%;
+    padding: 10px;
+    opacity: 0;
+    bottom: -40px;
+    transition: .5s;
+}
+
+#proyectos .card:hover .card-body{
+    opacity: 1;
+    bottom: 0;
+}
