@@ -17,7 +17,6 @@ html {
 
 
 /* NAVBAR STYLES */
-
 .container-fluid ul li:hover{
     transform: translateY(-4px) scale(1.10);
 }
@@ -25,7 +24,7 @@ html {
 .logo-de-ap{
     -webkit-filter: invert(100%);
     filter: invert(100%);
-    width: 40px;
+    width: 35px;
     height: 35px;
     margin-top: -3%;
 }
@@ -51,7 +50,6 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
 }
 
 /* BANNER */
-
 #banner{
     background-image: linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .8)), url('../img/banner.png');
     background-size: cover;
@@ -106,7 +104,6 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
 }
 
  /* SOBRE MI */
-
 #mi{
     max-width: 1100px;
     margin: auto;
@@ -155,7 +152,6 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
 
 
 /* Experiencia laboral */
-
 .titular{
     margin-top: 10%;
     margin-bottom: 12%;
@@ -192,7 +188,6 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
 }
 
 /* Mi educacion */
-
 #educacion .titular{
     padding-bottom: 7%;
 }
@@ -223,7 +218,6 @@ background: linear-gradient(to left, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Fi
 
 
 /* Mis habilidades */
-
 #habilidades{
 background: linear-gradient(#d64a6f, rgba(33,16,16, .8)), url('../img/habilidad-foto.png');
 background-attachment: fixed;
@@ -254,7 +248,6 @@ text-align: center;
 }
 
 /* Mis proyectos */
-
 #proyectos .card{
     max-width: 675px;
     margin: 0 10px;
@@ -294,3 +287,12 @@ text-align: center;
     opacity: 1;
     bottom: 0;
 }
+
+/* Footer */
+ #pie-de-pagina{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+ }
+
+

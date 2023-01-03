@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Estilos -->
+  <style>
+    body{
+      background: #4054ab;
+      background: linear-gradient(to right, #E0EAFC, #d64a6f);
+   }
+
+    .foto-inicio{
+      background-image: url(assets/img/Foto-login.png);
+      background-position: center center;
+      background-size: cover;
+   }
+  </style>
+</head>
+
+<body>
+ 
+  <div class="container w-75 bg-light mt-5 rounded shadow">
+    <div class="row align-items-stretch">
+
+     <!-- Background -->
+      <div class="col foto-inicio d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded">
+      </div>
+
+     <!-- Mi logo -->
+      <div class="col bg-white p-5 rounded-end">
+        <div class="text-end">
+          <img src="assets/img/Mi-logo.png" width="68" alt="mi-logo">
+        </div>
+        <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+     <!-- Formulario login -->
+      <form action="#">
+        <div class="mb-4">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" name="email">  
+        </div>
+        <div class="mb-4">
+          <label for="password" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" name="password">  
+        </div>
+        <div class="mb-4 form-check">
+          <input type="checkbox" class="form-check-input" name="connected">
+          <label for="connected" class="form-check-label">Mantener sesión abierta</label>  
+        </div>
+     
+     <!-- Boton inicio -->
+        <div class="d-grid">
+          <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+        </div>
+      </form>
+
+     <!-- Boton registarse -->
+        <div class="my-3">
+          <span>No tienes cuenta? <a href="#">Regístrate</a></span></div>
+     </div>
+    </div>
+   </div>
+    
+  <!-- Bootstrap JS -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+   crossorigin="anonymous"></script>
+ </body>
+</html>
